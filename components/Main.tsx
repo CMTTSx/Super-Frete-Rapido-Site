@@ -78,8 +78,8 @@ function Main() {
                 </div>
             </div>
 
-            <div className='mb-20'>
-                <h1 className='text-[2em] text-center font-bold mt-[10em] pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
+            <div className='pb-[30em] bg-[#F3F3F3] '>
+                <h1 className='text-[2em] text-center font-bold mt-[10em] pt-20 pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
 
                 <div className=' mt-[-10em] '>
                     <Tabs />
@@ -88,9 +88,9 @@ function Main() {
             </div>
 
             <div>
-                <h1 className='text-center text-[2.5em] font-bold '>Temos também serviços especiais para nossos clientes:</h1>
+                <h1 className='text-center text-[2.5em] font-bold  mt-[2em] '>Temos também serviços especiais para nossos clientes:</h1>
 
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-3 gap-3 mt-[10em] ">
                     
                     <div className='ml-auto mr-auto mt-20'>
                         <h3 className='font-semibold text-xl '>Serviço de Empacotamento e Armazenamento</h3>
