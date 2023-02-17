@@ -33,13 +33,13 @@ const Tabs = ({ color }: any) => {
                 role="tablist"
               >
                 <Image src={modalAereoIcon} alt="" className="ml-auto mr-auto " />
-                Modal Aéreo
+                <h3 className="mt-[0.1em] ">Modal Aéreo</h3>
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xl font-bold px-5 h-[12.2em] py-3 shadow-lg rounded block leading-normal " +
+                  "text-xl font-bold px-5  py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-dark bg-[#6CD4FF] " + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -52,8 +52,8 @@ const Tabs = ({ color }: any) => {
                 href="#link2"
                 role="tablist"
               >
-                <Image src={modalHidroviarioIcon} alt="" className="ml-auto mr-auto mt-[3em] " />
-                 Modal Hidroviário
+                <Image src={modalHidroviarioIcon} alt="" className="ml-auto mr-auto mt-[em] " />
+                 <h3 className="mt-[5.5em] ">Modal Hidroviário</h3>
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -73,7 +73,7 @@ const Tabs = ({ color }: any) => {
                 role="tablist"
               >
                 <Image src={modalRodoviarioIcon} alt="" className="ml-auto mr-auto mt-9 mb-2 pb-7 " />
-                 Modal Rodoviário
+                <h3 className="mt-[0em] ">Modal Rodoviário</h3>
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -93,7 +93,7 @@ const Tabs = ({ color }: any) => {
                 role="tablist"
               >
                 <Image src={modalFerroviarioIcon} alt="" className="ml-auto mr-auto  mt-2 pb-[2.7em] " />
-                 Modal Ferroviário
+                <h3 className="mt-[0em] ">Modal Ferroviário</h3>
               </a>
             </li>
           </ul>

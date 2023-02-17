@@ -4,13 +4,13 @@ import { Inter } from '@next/font/google'
 import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
-import Homepage from 'components/Homepage'
+import Navbar from 'components/Navbar'
 import Main from 'components/Main'
 
 export default function Home() {
   return (
    <>
-   <Homepage />
+   <Navbar />
    <Main />
    </>
   )

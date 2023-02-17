@@ -13,7 +13,12 @@ import localIcon from '../public/img/localizacaoIcon.png';
 import companyIcon from '../public/img/companyIcon.png';
 import boxIcon from '../public/img/boxIcon.png';
 import driverIcon from '../public/img/driverIcon.png';
-
+import packageIcon from '../public/img/Package.png';
+import warehouseIcon from '../public/img/warehouse 1.png';
+import logisticaIcon from '../public/img/logisticaIcon.png';
+import suporteIcon from '../public/img/supportIcon.png';
+import freteIcon from '../public/img/frete.png';
+import insuranceTruckIcon from '../public/img/insurance-truck.png';
 
 function Main() {
     return (
@@ -49,26 +54,26 @@ function Main() {
             </div>
 
             <div className="grid grid-cols-3 gap-10 mt-[20em] bg-[#FFF500] ">
-                
+
                 <div className='flex ml-[5em] '>
-                    <Image src={companyIcon} alt={''}  />
+                    <Image src={companyIcon} alt={''} />
                     <div className=' mt-8 font-bold text-xl '>
-                    <h3>+1485</h3>
-                    <h3>Empresas Ativas</h3>
+                        <h3>+1485</h3>
+                        <h3>Empresas Ativas</h3>
                     </div>
                 </div>
                 <div className='flex ml-[5em]'>
-                    <Image src={boxIcon} alt={''}  />
+                    <Image src={boxIcon} alt={''} />
                     <div className=' mt-8 font-bold text-xl ml-10    '>
-                    <h3>+5000</h3>
-                    <h3>Fretes</h3>
+                        <h3>+5000</h3>
+                        <h3>Fretes</h3>
                     </div>
                 </div>
                 <div className='flex ml-20 '>
-                    <Image src={driverIcon} alt={''}  />
+                    <Image src={driverIcon} alt={''} />
                     <div className=' mt-8 font-bold text-xl '>
-                    <h3>+3000</h3>
-                    <h3>Caminhoneiros</h3>
+                        <h3>+3000</h3>
+                        <h3>Caminhoneiros</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +84,52 @@ function Main() {
                 <div className=' mt-[-10em] '>
                     <Tabs />
                 </div>
-            
+
+            </div>
+
+            <div>
+                <h1 className='text-center text-[2.5em] font-bold '>Temos também serviços especiais para nossos clientes:</h1>
+
+                <div className="grid grid-cols-3 gap-3">
+                    
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl '>Serviço de Empacotamento e Armazenamento</h3>
+                        <Image src={packageIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl ml-10'>Centro Logístico</h3>
+                        <Image src={warehouseIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl '>Transporte suas cargas pelo mundo</h3>
+                        <Image src={logisticaIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl ml-6 '>Assistência 24/7</h3>
+                        <Image src={suporteIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl '>Entrega de Porta em Porta</h3>
+                        <Image src={freteIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+
+                    <div className='ml-auto mr-auto mt-20'>
+                        <h3 className='font-semibold text-xl '>Segurança de Cargas </h3>
+                        <Image src={insuranceTruckIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
+                    </div>
+                
+                
+                </div>
+
+               
+
+             
+
+
             </div>
 
         </div>
