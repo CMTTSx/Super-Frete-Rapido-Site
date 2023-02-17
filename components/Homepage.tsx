@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 function Homepage() {
   return (
     <>
-        <Navbar />
+      <Navbar />
     </>
   )
 }
