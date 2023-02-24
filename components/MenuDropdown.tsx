@@ -207,7 +207,7 @@ function MenuDropdown() {
             <button
               className="text-white font-semibold text-lg inline-flex items-center"
             >
-              <span className=" sm:text-sm lg:text-md rounded-lg hover:scale-110 ">CADASTRE-SE</span>
+              <span className=" sm:text-sm lg:text-lg rounded-lg hover:scale-110 ">CADASTRE-SE</span>
 
             </button>
 
