@@ -9,6 +9,24 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '320px',
+
+      'sm2': '375px',
+
+      'sm3': '425px',
+
+      'md': '768px',
+      
+      'lg': '1024px',
+      
+      'xl': '1440px',
+      
+      '2xl': '2560px',
+      
+      '3xl': '3840px',
+
+    },
     extend: {
       backgroundImage: {
         'home': "url('/img/backgroundImage.png')",

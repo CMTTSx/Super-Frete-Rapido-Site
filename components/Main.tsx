@@ -22,56 +22,56 @@ import insuranceTruckIcon from '../public/img/insurance-truck.png';
 
 function Main() {
     return (
-        <div className='h-[60em] '>
+        <div className=' w-full '>
 
-            <h1 className='pl-[3em] pt-20 pb-20 text-[2.4em] font-bold '>Como Funciona:</h1>
+            <h1 className=' sm:ml-[-2em] sm:text-[2em] pl-[3em] pt-20 pb-20 text-[2.4em] font-bold '>Como Funciona:</h1>
 
-            <div className="grid grid-cols-4 gap-4 mt-[15em] pb-20 ">
-
-                <div className='ml-auto mr-auto'>
+            <div className=" grid grid-column-4 lg:grid-flow-col gap-4 ">
+                
+                <div className=' ml-auto mr-auto sm:pb-5'>
                     <Image src={macIcon} alt='macIcon' className='ml-auto mr-auto' />
                     <h4 className='pl-10 pr-5 text-justify'>Comece cadastrando sua carga,
                         que iremos intermediar e encontrar para você os melhores modais
                         e ofertas para que você escolha a melhor forma de envio.</h4>
                 </div>
 
-                <div className='ml-auto mr-auto '>
-                    <Image src={transportIcon} alt='macIcon' className='ml-auto mr-auto mt-[-1.6em] ' />
-                    <h4 className='pl-0 pr-5 text-justify'>Assim que escolher a empresa e o modal que melhor atender,
+                <div className=' ml-auto mr-auto sm:pb-10'>
+                    <Image src={transportIcon} alt='macIcon' className='ml-auto mr-auto mt-[-1.7em] ' />
+                    <h4 className='pl-10 pr-5 text-justify'>Assim que escolher a empresa e o modal que melhor atender,
                         terá uma plataforma  para negócio que poderá  tirar todas suas dúvidas,
                         facilitando e assegurando ambas as partes.</h4>
                 </div>
 
-                <div className='ml-auto mr-auto '>
-                    <Image src={DashboardIcon} alt='macIcon' className='ml-auto mr-auto ' />
-                    <h4 className='pl-0 pr-5 mt-6 text-justify'>Tenha também acesso ao Dashboard, onde terá todas as informações da operação desde o ínicio até a entrega.</h4>
+                <div className=' ml-auto mr-auto sm:pb-10'>
+                    <Image src={DashboardIcon} alt='macIcon' className='ml-auto mr-auto mt-[1.4em] ' />
+                    <h4 className='pl-10 pr-5 text-justify'>Tenha também acesso ao Dashboard, onde terá todas as informações da operação desde o ínicio até a entrega.</h4>
                 </div>
 
-                <div className='ml-auto mr-auto '>
-                    <Image src={localIcon} alt='macIcon' className='ml-auto mr-auto ' />
-                    <h4 className='pl-2 pr-10 mt-6 text-justify'>Total suporte  a você e sua carga, trazendo segurança, disponibilidade em todo trajeto, e localização a qualquer momento.</h4>
+                <div className=' ml-auto mr-auto sm:pb-10'>
+                    <Image src={localIcon} alt='macIcon' className='ml-auto mr-auto mt-[1.3em] ' />
+                    <h4 className='pl-10 pr-5 text-justify'>Total suporte  a você e sua carga, trazendo toda a segurança, disponibilidade em todo trajeto, e localização a qualquer momento.</h4>
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-10 mt-[20em] bg-[#FFF500] ">
+            <div className=" sm:w-full sm:grid-cols-1 grid lg:grid-cols-3 gap-10 mt-[20em] bg-[#FFF500] ">
 
-                <div className='flex ml-[5em] '>
+                <div className='flex ml-auto mr-auto'>
                     <Image src={companyIcon} alt={''} />
-                    <div className=' mt-8 font-bold text-xl '>
+                    <div className='mt-5 font-bold text-xl '>
                         <h3>+1485</h3>
                         <h3>Empresas Ativas</h3>
                     </div>
                 </div>
-                <div className='flex ml-[5em]'>
+                <div className='flex ml-auto mr-auto'>
                     <Image src={boxIcon} alt={''} />
-                    <div className=' mt-8 font-bold text-xl ml-10    '>
+                    <div className='mt-5 ml-5 font-bold text-xl '>
                         <h3>+5000</h3>
                         <h3>Fretes</h3>
                     </div>
                 </div>
-                <div className='flex ml-20 '>
+                <div className='flex ml-auto mr-auto'>
                     <Image src={driverIcon} alt={''} />
-                    <div className=' mt-8 font-bold text-xl '>
+                    <div className='mt-5 font-bold text-xl '>
                         <h3>+3000</h3>
                         <h3>Caminhoneiros</h3>
                     </div>
@@ -79,7 +79,7 @@ function Main() {
             </div>
 
             <div className='pb-[30em] bg-[#F3F3F3] '>
-                <h1 className='text-[2em] text-center font-bold mt-[10em] pt-20 pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
+                <h1 className=' sm:text-[1.3em] text-[2em] text-center font-bold mt-[10em] pt-20 pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
 
                 <div className=' mt-[-10em] '>
                     <Tabs />
@@ -88,12 +88,12 @@ function Main() {
             </div>
 
             <div>
-                <h1 className='text-center text-[2.5em] font-bold  mt-[2em] '>Temos também serviços especiais para nossos clientes:</h1>
+                <h1 className=' sm:text-[1.6em] text-center lg:text-[2.5em] font-bold  mt-[2em] '>Temos também serviços especiais para nossos clientes:</h1>
 
-                <div className="grid grid-cols-3 gap-3 mt-[10em] ">
+                <div className="grid lg:grid-cols-3 gap-3 mt-[10em] ">
                     
                     <div className='ml-auto mr-auto mt-20'>
-                        <h3 className='font-semibold text-xl '>Serviço de Empacotamento e Armazenamento</h3>
+                        <h3 className=' sm:pl-10 sm2:pl-10 sm3:pl-20 pl-18 font-semibold text-xl '>Serviço de Empacotamento e Armazenamento</h3>
                         <Image src={packageIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
                     </div>
 
@@ -103,7 +103,7 @@ function Main() {
                     </div>
 
                     <div className='ml-auto mr-auto mt-20'>
-                        <h3 className='font-semibold text-xl '>Transporte suas cargas pelo mundo</h3>
+                    <h3 className=' sm:ml-10 font-semibold text-xl '>Transporte suas cargas pelo mundo</h3>
                         <Image src={logisticaIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
                     </div>
 
@@ -118,7 +118,7 @@ function Main() {
                     </div>
 
                     <div className='ml-auto mr-auto mt-20'>
-                        <h3 className='font-semibold text-xl '>Segurança de Cargas </h3>
+                        <h3 className=' sm:ml-10 font-semibold text-xl '>Segurança de Cargas </h3>
                         <Image src={insuranceTruckIcon} alt='packageIcon' className='ml-auto mr-auto mt-10' />
                     </div>
                 

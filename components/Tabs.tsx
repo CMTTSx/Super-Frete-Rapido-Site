@@ -36,10 +36,10 @@ const Tabs = ({ color }: any) => {
                 <h3 className="mt-[0.1em] ">Modal Aéreo</h3>
               </a>
             </li>
-            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center ">
               <a
                 className={
-                  "text-xl font-bold px-5  py-3 shadow-lg rounded block leading-normal " +
+                  "text-xl font-bold px-5 py-3 shadow-lg rounded block h-[12.2em] leading-normal " +
                   (openTab === 2
                     ? "text-dark bg-[#6CD4FF] " + color + "-600"
                     : "text-" + color + "-600 bg-white")
@@ -52,8 +52,8 @@ const Tabs = ({ color }: any) => {
                 href="#link2"
                 role="tablist"
               >
-                <Image src={modalHidroviarioIcon} alt="" className="ml-auto mr-auto mt-[em] " />
-                 <h3 className="mt-[5.5em] ">Modal Hidroviário</h3>
+                <Image src={modalHidroviarioIcon} alt="" className="ml-auto mr-auto mt-12 " />
+                <h3 className="mt-[3.1em] ">Modal Hidroviário</h3>
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -97,7 +97,7 @@ const Tabs = ({ color }: any) => {
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 pt-[9em] text-justify italic text-[1.5em] pl-20 pr-20 ">
+          <div className=" sm:text-[1.2em] sm:pl-5 sm:pr-4  relative flex flex-col min-w-0 break-words  w-full mb-6 pt-[9em] text-justify italic lg:text-[1.5em] ">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
