@@ -10,9 +10,9 @@ function MenuDropdown() {
 
   return (
     <>
-    <Link href='/'><Image src={Logo} alt="Logo" className=' lg:ml-[0em] xl:ml-[10em] cursor-pointer' /></Link>
+    <Link href='/'><Image src={Logo} alt="Logo" className=' 2xl:ml-[20rem] cursor-pointer' /></Link>
 
-<nav className=" sm:mt-20 relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 lg:mt-[3.3rem] ">
+<nav className=" sm:mt-20 relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 lg:mt-[3.3rem] 2xl:ml-[35rem] ">
   <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block sm:justify-end mt-[-13.5em]  ">
       <button
@@ -48,7 +48,7 @@ function MenuDropdown() {
           </svg>
         </button>
         
-        <ul className="absolute hidden text-white group-hover:block">
+        <ul className=" mx-[-0.7rem] absolute hidden text-white group-hover:block">
               <li className="">
                 <a
                   className="py-1 text-center mr-20 block whitespace-no-wrap hover:text-[#757575]  "
