@@ -79,7 +79,7 @@ function Main() {
             </div>
 
             <div className='pb-[30em] bg-[#F3F3F3] '>
-                <h1 className=' sm:text-[1.3em] text-[2em] text-center font-bold mt-[10em] pt-20 pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
+                <h1 className=' sm:text-[1.3em] md:text-[2em] text-center font-bold mt-[10em] pt-20 pb-[10em] '>Oferecemos Fretes Multimodais com o melhor Custo-Benefício</h1>
 
                 <div className=' mt-[-10em] '>
                     <Tabs />
