@@ -11,7 +11,7 @@ Site de Fretes. versão básica para demonstração de habilidade nas tecnologia
 
 # 🛠️ Tecnologias aprendidas e utilizadas 🛠️
 
-1-REACT
+1-NEXTJS
 
 2-TYPESCRIPT
 
